@@ -1,0 +1,28 @@
+{
+    "payload": {
+        "state": {
+            "format": "nerius.varium-ori.checkpoint",
+            "version": 1,
+            "oriCount": 28,
+            "leafOrder": "ori-id-ascending",
+            "merkleRoot": "b97ad7c44b408eea55e8a1a57c337686d09d184589bc60fe13592b887e94f8c1",
+            "leafEncoding": "SHA256(0x00 || utf8(oriId) || 0x00 || raw32(chainTip))",
+            "transferCount": 16,
+            "parentEncoding": "SHA256(0x01 || left32 || right32); duplicate last if odd",
+            "merkleAlgorithm": "sha256-binary-v1",
+            "neverTransferred": 14,
+            "emptyRootEncoding": "SHA256(utf8(nerius.varium-ori.checkpoint.empty.v1))",
+            "retrospectiveTransfers": 6,
+            "contemporaneousTransfers": 10
+        },
+        "domain": "nerius.varium-ori.signed-checkpoint",
+        "version": 1,
+        "sequence": 1,
+        "createdAt": "2026-10-17T10:12:07.964Z",
+        "signingKeyId": "0b4edf3156a70a9ca9944ed29d213ff1a012a76e9b21f0223d1fe43cebe06269",
+        "previousCheckpointHash": null
+    },
+    "signature": "nWzKq2kp/UrCFDZ8t3bCrgnDqqAOfIJynbULOwmVr/KK553/SFzjTw7HLG3/O8kJaWut4d8FCF98lmgOpkOoDQ==",
+    "checkpointHash": "ad427f580c0a1a00c2b7a617c1ebc98747bca34d003624df8ed4e6975cdf0eeb",
+    "signatureAlgorithm": "Ed25519"
+}
